@@ -1,0 +1,276 @@
+    body {
+        box-sizing: border-box;
+        font-family: 'Times New Roman', Times, serif, 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif, Arial, Helvetica, sans-serif, 'Courier New', Courier, monospace;
+    }
+    
+    header {
+        width: 100%;
+        background-color: #eeeeee;
+        height: auto;
+        box-sizing: border-box;
+        padding: 0px;
+        margin: 0px;
+        text-align: center;
+        position: relative;
+    }
+    
+    h1 {
+        padding: 0px;
+        margin: 0px;
+        font-size: 30px;
+        font-weight: 700;
+        box-sizing: border-box;
+    }
+    
+    #pass {
+        margin-top: 10px;
+        width: 70px;
+        height: 70px;
+        float: left;
+        box-sizing: border-box;
+        margin-left: 20px;
+        border-radius: 100px;
+        position: relative;
+        transition: height 1s, width 1s, border-radius 1s;
+    }
+    
+    #pass:hover {
+        border-radius: 20px;
+        height: 70px;
+        width: 73px;
+    }
+    
+    .job_title {
+        padding: 0px;
+        margin: 0px;
+        box-sizing: border-box;
+    }
+    
+    h2 {
+        font-weight: 900;
+        box-sizing: border-box;
+        margin-top: 10px;
+        margin-bottom: 2px;
+        padding: 0px 10px;
+        font-size: 30px;
+        color: #2c218b;
+    }
+    
+    p {
+        font-size: 18px;
+        padding: 5px;
+    }
+    
+    left {
+        box-sizing: border-box;
+    }
+    
+    .left {
+        left: 10px;
+        width: 50%;
+        float: left;
+    }
+    
+    .right {
+        left: 20px;
+        width: 50%;
+        float: right;
+    }
+    
+    main {
+        width: 96%;
+        padding: 0px;
+    }
+    
+    #main {
+        --size: 650px;
+        padding: 0px;
+        margin: 10px 0px;
+        height: var(--size);
+        box-sizing: border-box;
+        position: relative;
+        background-color: antiquewhite;
+        border: 1px solid rgb(255, 255, 255);
+    }
+    
+    ul,
+    t {
+        font-weight: 700;
+        color: #4f3df3;
+    }
+    
+    b {
+        color: black;
+    }
+    
+    n {
+        font-weight: 700;
+    }
+    
+    .footer {
+        font-size: 20px;
+        height: 0px;
+        box-sizing: border-box;
+        padding: 0px;
+        text-align: center;
+        margin: 100px 0px;
+        position: relative;
+    }
+    
+    @media screen and (max-width: 600px) {
+        body {
+            box-sizing: border-box;
+        }
+        header {
+            width: 100%;
+            background-color: #eeeeee;
+            height: 100%;
+            box-sizing: border-box;
+            padding: 40px;
+            margin: 0px;
+            text-align: left;
+            position: relative;
+        }
+        h1 {
+            text-align: center;
+            padding: 200px 0px 0px 0px;
+            margin: 0px;
+            font-size: 30px;
+            font-weight: 700;
+            box-sizing: border-box;
+        }
+        #pass {
+            width: 200px;
+            height: 200px;
+            /*left: 26%;*/
+            position: absolute;
+            box-sizing: border-box;
+            border-radius: 100px;
+            margin-left: 25%;
+            top: 20px;
+            transition: height 1s, width 1s, border-radius 1s;
+        }
+        #pass:hover {
+            border-radius: 20px;
+            height: 210px;
+            width: 210px;
+        }
+        .job_title {
+            padding: 0px;
+            margin: 0px;
+            box-sizing: border-box;
+            text-align: center;
+        }
+        t {
+            padding: 0px;
+        }
+        #main {
+            width: 100%;
+            height: auto;
+            box-sizing: border-box;
+            background-color: antiquewhite;
+            border: 1px solid rgb(255, 255, 255);
+            position: relative;
+            box-sizing: border-box;
+            padding: 0px;
+            margin: 10px 0px 0px 0px;
+        }
+        .left {
+            left: 5px;
+            width: 100%;
+            float: none;
+        }
+        .right {
+            left: 5px;
+            width: 100%;
+            float: none;
+        }
+        .footer {
+            width: 100%;
+            height: auto;
+            box-sizing: border-box;
+            padding: 10px;
+            text-align: center;
+            margin: 10px 0px;
+            position: relative;
+        }
+    }
+    
+    @media screen and (min-width: 600px) and (max-width: 900px) {
+        body {
+            box-sizing: border-box;
+        }
+        header {
+            width: 100%;
+            background-color: #eeeeee;
+            height: 100%;
+            box-sizing: border-box;
+            padding: 40px;
+            margin: 0px;
+            text-align: left;
+            position: relative;
+        }
+        h1 {
+            text-align: center;
+            padding: 200px 0px 0px 0px;
+            margin: 0px;
+            font-size: 30px;
+            font-weight: 700;
+            box-sizing: border-box;
+        }
+        #pass {
+            width: 200px;
+            height: 200px;
+            /*left: 26%;*/
+            position: absolute;
+            box-sizing: border-box;
+            border-radius: 100px;
+            margin-left: 30%;
+            top: 20px;
+            transition: height 1s, width 1s, border-radius 1s;
+        }
+        #pass:hover {
+            border-radius: 20px;
+            height: 210px;
+            width: 210px;
+        }
+        .job_title {
+            padding: 0px;
+            margin: 0px;
+            box-sizing: border-box;
+            text-align: center;
+        }
+        t {
+            padding-left: 100px;
+        }
+        #main {
+            width: 100%;
+            height: auto;
+            box-sizing: border-box;
+            background-color: antiquewhite;
+            border: 1px solid rgb(255, 255, 255);
+            position: relative;
+            box-sizing: border-box;
+            padding: 0px;
+            margin: 10px 0px 0px 0px;
+        }
+        .left {
+            left: 5px;
+            width: 100%;
+            float: none;
+        }
+        .right {
+            left: 5px;
+            width: 100%;
+            float: none;
+        }
+        .footer {
+            width: 100%;
+            height: auto;
+            box-sizing: border-box;
+            padding: 10px;
+            text-align: center;
+            margin: 10px 0px;
+            position: relative;
+        }
+    }
